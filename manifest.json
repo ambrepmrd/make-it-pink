@@ -11,8 +11,8 @@
     },
 
     "background": {
-        "service_worker": "background.js"
-      },
+      "service_worker": "background.js"
+    },
   
     "action": {
         "default_icon": {
@@ -23,7 +23,7 @@
         }
     },
 
-    "permissions": ["activeTab", "scripting"],
+    "permissions": ["activeTab", "scripting", "storage", "webNavigation"],
 
     "commands": {
         "_execute_action": {
